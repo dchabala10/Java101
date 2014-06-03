@@ -1,0 +1,14 @@
+String myArray[] = new String[3];
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("What is your name?");
+		myArray[0] = input.next();
+		System.out.println("Your name is " +myArray[0]);
+		
+		System.out.println("When is your birthday?");
+		myArray[1] = input.next();
+		System.out.println("Your birthday is " +myArray[1]);
+		
+		System.out.println("What is your favorite color?");
+		myArray[2] = input.next();
+		System.out.println("Your favorite color " +myArray[2]);
