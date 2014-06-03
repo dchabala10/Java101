@@ -1,0 +1,9 @@
+int height = 10;
+		double acceleration = 9.8;
+		double timeSquared = 0.0;
+		double time = 0.0;
+		
+		timeSquared = height / (0.5 * acceleration);
+		time = Math.sqrt(timeSquared);
+		
+		System.out.println(time);
