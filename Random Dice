@@ -1,0 +1,11 @@
+Random generator = new Random();
+		int roll = 1;
+		roll = generator.nextInt(6) +1;
+		System.out.println("The first roll is: " +roll);
+		
+		Random generator1 = new Random();
+		int rollTwo = 1;
+		rollTwo = generator1.nextInt(6) +1;
+		System.out.println("The second roll is: " +rollTwo);
+		
+		System.out.println("The total of the rolls is: " +(roll + rollTwo));
