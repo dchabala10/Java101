@@ -1,3 +1,12 @@
+package secondclass;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class SecondClass {
+
+	public static void main(String[] args) {
+
 Random generator = new Random();
 		int roll = 1;
 		roll = generator.nextInt(6) +1;
@@ -9,3 +18,5 @@ Random generator = new Random();
 		System.out.println("The second roll is: " +rollTwo);
 		
 		System.out.println("The total of the rolls is: " +(roll + rollTwo));
+	}
+}
