@@ -1,0 +1,46 @@
+package secondclass;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class SecondClass {
+
+	public static void main(String[] args) {
+		int letterGrade = 0;
+		
+				
+	System.out.println("What number grade did you receive?");	
+	Scanner input = new Scanner(System.in);
+		
+		letterGrade = input.nextInt();
+		
+		
+		if (letterGrade >= 90)
+		{
+		System.out.println("Your grade is: A");
+		}
+		else if (letterGrade <= 90 && letterGrade >= 80)
+		{
+			System.out.println("Your grade is: B");
+		}	
+		else if (letterGrade <= 80 && letterGrade >= 70)
+		{
+			System.out.println ("Your grade is: C");
+		}
+		else if (letterGrade <= 70 && letterGrade >= 60)
+		{
+			System.out.println("Your grade is: D");
+		}
+		else if (letterGrade <= 60)
+		{
+			System.out.println("You FAILED");
+		}
+			else 
+			{
+				System.out.println("You did not input a grade");
+			}
+		System.out.println("Your grade is: " + letterGrade);
+		
+		}
+		
+	}
