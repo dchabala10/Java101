@@ -1,0 +1,44 @@
+package secondclass;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class SecondClass {
+
+	
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+
+int sum = 0;
+	
+	//Count through numbers 1-10
+		//using for()
+	
+	//If the number % 5 is zero
+		//using if()
+	
+	//Add it to the sum
+	
+	//Else, if the number % 3 is zero
+		//using else if()
+	
+	//Add it to the sum
+	
+	//print the sum
+	
+		
+		for (int i = 1; i < 1000; i ++)
+		{
+			if(i % 5 == 0){
+				sum = sum + i;
+			}
+			else if (i % 3 == 0) {
+				sum = sum + i;
+			}
+				
+			
+		}
+	
+		System.out.println(sum);
+	}
+}
