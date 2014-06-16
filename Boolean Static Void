@@ -1,0 +1,28 @@
+package java101day3;
+
+public class Java101day3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		System.out.println(numberTimes(3, "bye"));
+		}
+
+	static boolean numberTimes(int number, String words){
+		
+		
+		for (int i = 0; i < number; i++){
+			System.out.println(words);
+		}
+		if (number % 2 == 0){
+			return true;
+		}
+		else{
+			return false;
+		}
+			
+		
+	}
+	
+ }
