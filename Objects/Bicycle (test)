@@ -1,0 +1,9 @@
+package java101day3;
+
+public class Bicycle {
+	String myColor = "Green";
+	int speed = 0;
+	int maxGear = 20;
+	int currentGear = 1;
+	
+}
