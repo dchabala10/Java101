@@ -1,0 +1,29 @@
+package java101day3;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Bicycle myBike = new Bicycle ();
+		Bicycle myOtherBike = new Bicycle ();
+		
+		myBike.currentGear = 1;
+		myOtherBike.currentGear = 10;
+		
+		myBike.maxGear = 20;
+		myOtherBike.maxGear = 40;
+		
+		myBike.myColor = "Red";
+		myOtherBike.myColor = "Blue";
+		
+		myBike.speed = 20;
+		myOtherBike.speed = 100;
+		
+		System.out.println(myBike.maxGear);
+		System.out.println(myOtherBike.maxGear);
+		
+
+	}
+
+}
